@@ -1,0 +1,18 @@
+// подключение base
+@import "blocks/base";
+// подключение базовых настроек
+@import "settings";
+// //Подключение normalize
+@import "normalize";
+// подключение для блока header
+@import "blocks/header";
+// стили для блока category
+@import "blocks/how";
+// стили для блока community
+@import "blocks/community";
+// стили для блока service
+@import "blocks/service";
+// стили для footer
+@import "blocks/footer";
+// cтили для адаптива
+@import "media"

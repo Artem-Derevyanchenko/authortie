@@ -1,0 +1,42 @@
+.footer {
+    padding-top: 43px;
+    padding-bottom: 50px;
+    background: #262628;
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &-copy {
+        margin-right: 67px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-item a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-right: 68px;
+    }
+
+    &-socials {
+        margin-left: auto;
+    }
+    &-icon{
+        margin: 0 15px;
+    }
+}
